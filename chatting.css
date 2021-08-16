@@ -1,0 +1,72 @@
+.chatting{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+.chatting img{
+    width:60px;
+    height: 60px;
+    border-radius: 30%;
+ float: left;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.chatting .daily{
+    width:230px;
+    text-align: center;
+    padding: 7px;
+    background-color: rgba(0, 255, 255,0.5);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.chatting_day{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+h4{
+    display: inline-block;
+    margin:0;
+    padding:10px;
+    border-radius: 0 15px 15px 15px;
+    background-color: #7fb5ff;
+}
+.chatting span{
+    color:#fff;
+    font-size: 12px;
+    position: relative;
+    bottom: -10px
+}
+.chattingfoot ul li{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.chattingfoot input{
+    width:80%;
+    height: 40px;
+    border:none;
+    padding:0 20px;
+    border-radius: 20px;
+}
+
+.chattingfoot input:focus{
+    outline: none;
+    width: 98vw;
+  transform: translateX(-90%) translateX(90%);
+    transition: 0.5s;
+ }
+.chattingfoot span {
+    position: absolute;
+    right: 30px;
+}
+
+

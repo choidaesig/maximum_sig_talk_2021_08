@@ -1,0 +1,48 @@
+@import "statusbar.css";
+@import "friend_header.css";
+@import "footer.css";
+@import "friendlist.css";
+@import "chatting.css";
+@import "find.css";
+@import "bigscreen.css";
+@import "more.css";
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+header .fa-cog:hover{
+      animation: rotateCog 1s linear infinite;
+
+}
+#status_bar{
+    color:#000;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1602279029118-e7b3ba3fbdb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+    background-size: cover;
+}
+
+.announcements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color: rgba(10,10,10,0.2);
+    opacity: 0.8;
+}
+.announcements i{
+margin: 10px;
+}
+.announcements p{
+font-weight: 900;
+    font-size: 15px;
+}

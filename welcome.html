@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Keat </title>
+    <link href="welcome.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+        <div id="status_bar">
+            <div class="status_bar_column">
+                <span>서비스 제공 안됨</span>
+                <i class="fas fa-phone-slash"></i>
+
+            </div>
+            <div class="status_bar_column">
+                <span>12:10</span>
+            </div>
+            <div class="status_bar_column">
+                <span>111%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header_title">대시기톡에 온 것을 환영합니다.</h1>
+            <p class="welcome-header_text">너의 이메일 or 전화번호를 통해서  <br> 정중하게 로그인을 부탁할게.</p>
+        </header>
+
+        <form action="friend.html" method="get">
+            <input required type="text"  placeholder="전화번호 or 이메일주소" />
+            <input required type="password" minlength="10" placeholder="비밀번호" />
+            <input type="submit" value="로그인" />
+            <input type="submit" value="등록하자" />
+            <a href="#">너의 계정 또는 비밀번호를 찾길 바라</a>
+
+
+        </form>
+       <div id="bigscreen">
+      <span> 화면크기를 줄여주세요.</span>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
